@@ -1,7 +1,7 @@
 local key = _G.Key
-local check = "https://github.com/KingFreeAllHub/KingFreeAllHub/blob/main/Check.php?key=" .. key
+local check = "https://github.com/KingFreeAllHub/KingFreeAllHub/blob/2e0ef8ad8b676bc4ead9417f8fef8f0a4694bd67/Check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
-loadstring(game:HttpGet("https://github.com/KingFreeAllHub/KingFreeAllHub/blob/main/script.lua"))()
+loadstring(game:HttpGet("https://github.com/KingFreeAllHub/KingFreeAllHub/blob/2e0ef8ad8b676bc4ead9417f8fef8f0a4694bd67/script.lua"))()
 else
 game.Players.LocalPlayer:Kick("ไปหาคีย์ใหม่นะไอเด็กเหี้ยไอสัส")
 end
